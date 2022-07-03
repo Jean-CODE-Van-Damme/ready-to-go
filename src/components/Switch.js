@@ -6,9 +6,6 @@ const Switch = ({
   switch3,
   setSwitch3,
 }) => {
-  // let violet = { backgroundColor: "violet" };
-  // let white = { backgroundColor: "white" };
-
   return (
     <>
       <div className="global">
@@ -26,8 +23,6 @@ const Switch = ({
             >
               OFF
             </button>
-
-            {/* {switch1 === true ? <button>GO</button> : <button>NO WAY</button>} */}
           </div>
 
           <div className="button">
