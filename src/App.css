@@ -15,7 +15,7 @@ h1 {
 .left {
   margin-top: 20px;
   /* border: 2px red solid; */
-  width: 70%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,11 +25,14 @@ h1 {
 
 .global {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 3px green; */
 }
 
 .button {
   /* border: 2px green solid; */
-  width: 40%;
+  width: 30%;
   height: 50px;
   display: flex;
   justify-content: space-between;
@@ -60,6 +63,8 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* border: 2px yellow solid; */
+  margin-top: 50px;
 }
 
 .white {
